@@ -1,0 +1,219 @@
+body 
+{
+    direction:rtl;
+    
+  
+    line-height: 1;
+    background-image:url(../pic/IMG_20170417_215257_260.jpg);
+    
+   
+
+
+   
+}
+#container {
+    margin: 0 auto;
+    Width: 960px;
+    
+}
+nav, section {
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    box-shadow: 0px 2px 1px pink;
+    margin-bottom: 30px;
+}
+li, p, h1 {
+    font-family: 'Alef', sans-serif;
+    font-size: 28pt;
+}
+
+li {
+    float: right;
+}
+.active {
+    background-color: #ff006e;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#sides {
+    margin: 0;
+    width: 960px;
+    height: 250px;
+    padding: 29px;
+    background-color: pink;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 15px 1px black;
+    
+}
+#left {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    
+ 
+}
+
+li, p, h1 {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    
+}
+#right {
+    float: right;
+    width: 25%;
+    overflow: hidden;
+    font-size: 45px;
+    text-align: center;
+    padding-left: 15Px;
+    color: #ff006e;
+    display: inline-block;
+}
+#instagram:hover {
+    display: inline-block;
+    width: 510px;
+    height: 70px;
+    background-image: url("../pic/Instagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+#instagram {
+    display: inline-block;
+    width: 504px;
+    height: 60px;
+    background-image: url("../pic/Instagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:250px;
+}
+
+h2{ color:deeppink;
+    font-weight: bold;
+     padding: 29px;
+     vertical-align: baseline;
+     display: block;
+      text-align: center;
+    padding-left: 15Px;
+    font-size:24pt;
+
+
+   
+
+        
+}
+#prezen {
+    margin: 0 auto;
+    Width: 960px;
+}
+.active {
+    background-color: #ff006e;
+    font-weight: bold;
+    border-radius: 25px;
+}
+#emojiVideo {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 1px;
+iframe[Attributes Style]
+{
+    width: 960px;
+    height: 550px;
+}
+#TimeRight {
+    float: right;
+    width: 28%;
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 7Px;
+    color:#ff006e;
+}
+#emojisides {
+    margin: 0;
+    width: 960px;
+    height: 200px;
+    padding: 30px;
+    background-color: lightpink;
+    border: 1px solid gray;
+}
+
+
+    
+#makeup{margin: 0 auto;
+    Width: 960px;}
+#pic{margin: 0 auto;
+    Width: 960px;}
+#prezen{margin: 0 auto;
+    Width: 960px;}
+#proja{margin: 0 auto;
+    Width: 960px;}
+#tiul{margin: 0 auto;
+    Width: 960px;}
+
+
+.pic {
+    margin: 10px 50px;
+    float: left;
+    width: 380px;
+    background-color: #f2f2f3;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: lightpink;
+    font-weight: bold;
+    margin: 10px;
+}
+#main-sub {
+    font-size: 16pt;
+    text-align: center;
+    background-color: lightpink;
+    margin: auto;
+    width: 600px;
+    border-radius: 37px;
+    border: 1px solid pink;
+    box-shadow: 1px 1px 15px 1px black;
+    padding: 7px;
+    font-weight: bold;
+}
+
+h1{ padding-top:100px;
+    color:deeppink;
+    font-size:14pt;
+    font-weight:bold;
+
+}
+
