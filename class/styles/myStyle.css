@@ -1,0 +1,416 @@
+﻿body {
+    direction: ltr;
+}
+
+#container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    border:1px solid  #eeeae1;
+}
+
+header {
+    display: inline-block;
+    width: 960px;
+    background-color: #eeeae1;
+    height: 60px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px 0 #999;
+}
+
+
+#TopNav ul li {
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 120px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+
+    #TopNav ul li a {
+        text-decoration: none;
+        color: #444235;
+        font-family: Lato-Regular;
+    }
+
+#logo1 {
+    margin-top: -13px;
+}
+
+#active {
+    text-decoration-line: underline;
+}
+
+#TopNav ul li a:hover {
+    text-decoration: underline;
+}
+
+#MidNav {
+    float: right;
+    width: 380px;
+    display: inline-block;
+}
+
+    #MidNav ul li {
+        display: block;
+        width: 380px;
+    }
+
+        #MidNav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            width: 380px;
+            height: 160px;
+            line-height: 160px;
+            font-family: Montserrat-Regular;
+            font-size: 22pt;
+            text-align: center;
+        }
+
+#Boots {
+    background-image: url('../images/boots.jpg');
+    background-size: cover;
+}
+
+#Dress {
+    background-image: url('../images/Dress.jpg');
+    background-size: 200%;
+    background-position: -180px -330px;
+    background-repeat: no-repeat;
+}
+
+#Sneakers {
+    background-image: url("../images/sneakers.jpg");
+    background-size: cover;
+}
+
+
+#MainTop {
+    height: 480px;
+    width: 580px;
+    margin: 0 auto auto 0;
+    display: inline-block;
+    background-image: url(../images/coverImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset  0 0 10px #D6D6D6;
+}
+
+h1 {
+    font-family: Montserrat-Regular;
+    font-size: 40px;
+    color: #444235;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    color: #444235;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+.Strong {
+    font-family: Lato-Regular;
+    font-size: 20px;
+    color: #444235;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 145px;
+}
+
+#Regular {
+    font-family: Lato-Light;
+    font-size: 15px;
+    color: #444235;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 325px;
+}
+
+#AboutBlog {
+    font-family: Lato-Light;
+    font-size: 13px;
+    color: #444235;
+    text-decoration: none;
+    margin-left: 145px;
+}
+
+h3 {
+    color: #7c7a6e;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: 100;
+    width: 750px;
+    border-bottom: 2px solid #d6d5d3;
+    border-top: 2px solid #d6d5d3;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 300px 300px 300px 300px;
+    background-color: white;
+    border: 2px solid #b1a76d;
+    box-shadow: 1px 1px 15px 1px #bdbaaa;
+}
+
+#LeftCircle {
+    background-image: url(../images/monkstraps.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+
+
+#MidCircle {
+    background-image: url(../images/2015winter.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+}
+
+#RightCircle {
+    background-image: url(../images/bagua.jpg);
+    background-repeat: no-repeat;
+    background-position: 35px 55px;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+
+.PictureText {
+    font-family: Lato-Regular;
+    font-size: 14pt;
+    color: #88867c;
+    padding-right: 60px;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#HotSales a {
+    display: block;
+    margin-left: 750px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: Lato-Regular;
+    font-size: 10pt;
+    color: #939188;
+}
+
+
+#SignUp {
+    color: #55544e;
+    font-family: Lato-Light;
+    font-size: 22px;
+    width: 570px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#italic {
+    font-family: Lato-Italic;
+}
+
+#Mail {
+    width: 475px;
+    height: 45px;
+    border: 2px solid #d6d5d3;
+    font-family: Lato-Italic;
+    font-size: 18pt;
+    color: #aaa9a7;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#Send {
+    height: 50px;
+    width: 275px;
+    background-color: #847a60;
+    font-family: Lato-Regular;
+    font-size: 16pt;
+    color: white;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#FooterTree {
+    height: 190px;
+    background-color: #ecebe4;
+    margin-top: 40px;
+    padding:20px;
+}
+
+#BottomNav > ul > li {
+    display: inline-block;
+    float: left;
+}
+
+
+    #BottomNav > ul > li > a {
+        display: block;
+        width: 230px;
+        font-family: Lato-Regular;
+        font-size: 14pt;
+        color: #868479;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+#BottomNav ul li ul {
+    display: block;
+}
+
+    #BottomNav ul li ul li a {
+        font-size: 13pt;
+        font-family: Lato-Light;
+        margin-left: 10px;
+        color: #868479;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+#FooterLogo {
+    height: 40px;
+    background-image: url("../images/logo2.png");
+    background-size: 80px;
+    background-color: #5a554a;
+    background-repeat: no-repeat;
+    background-position: 420px 5px;
+}
+
+#ContactUs {
+    height: 150px;
+    width: 180px;
+    border: 2px solid #d6d5d3;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top:5px;
+}
+
+#Contact {
+    font-family: Lato-Regular;
+    font-size: 14pt;
+    color: #868479;
+    text-align: center;
+}
+
+.ContactRegular {
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #868479;
+    text-align: center;
+    margin-top: 15px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactItalic {
+    font-family: Lato-Italic;
+    font-size: 15px;
+    color: #868479;
+    text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ShoePicture {
+    background-image: url('../images/AboutCover.jpeg');
+    background-size: 780px;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    margin-top: 30px;
+}
+
+#Main h3 {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Main h1 {
+    margin-left: 90px;
+}
+
+#Main p {
+    text-align: left;
+    margin-left: 90px;
+    width: 790px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+
+#Border {
+    width: 790px;
+    border: 2px solid #d6d5d3;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #Border p {
+        width: 700px;
+        margin-left: 50px;
+        padding-bottom:30px;
+    }
+
+
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('../fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
