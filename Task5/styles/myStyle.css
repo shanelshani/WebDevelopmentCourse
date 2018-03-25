@@ -1,0 +1,136 @@
+body 
+{
+    direction:rtl;
+    /*width:960px;*/
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-family: 'OpenSansHebrew-Regular';
+    /*font-size: 18px;*/
+    color: #464646;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    background-color:#dedde4;
+}
+
+/*#container{
+    font-family: 'Heebo', sans-serif;
+}*/
+
+#img {
+    width: 220px;
+    height: 140px;
+    background: #166865;
+    padding: 30px 0;
+    color: #6cc4b1;
+    border-radius: 50px;
+    background: url('Holon_Institute_of_Technology_logo.jpg')no-repeat;
+}
+
+
+/*image banner*/
+
+.banner {
+    z-index: 100;
+    /*float: left;*/
+    position: relative;
+    /*background-size: 1000px;*/
+    border-bottom: 80px #a4d9e5 solid;
+    background: url('Robot-and-human-hands.png') ;
+    background-size:cover;
+    /*width: 100%;*/
+    height:860px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+/*פסקה מתחת לתמונה הראשית*/
+
+#open {
+    width: 100%;
+    height: 355px;
+    /*margin-top: 800px;*/
+    position: relative;
+    /*float: left;*/
+    padding: 10px 0;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+}
+#open .header1{
+    margin-top: 660px
+}
+
+/*form*/
+
+.main_form{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #1b4c8b;
+    padding: 30px 0;
+    color: #fff;
+    display:inline-block;
+}
+
+.textbox #send{
+    border:0; 
+    cursor:pointer; 
+    width:100%; height:40px;
+}
+
+.textbox ul li{
+    display:inline-block;
+}
+
+.btn_holder{
+    display:block;
+}
+
+h1{
+    float:left;
+    font-size: 40pt;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    margin-left: 220px;
+    margin-top: 320px;
+    text-align: left;
+    width:250px;
+    height:170px;
+    border-radius: 50px;
+    padding:0 0 0 10px;
+}
+
+h2{
+    position: absolute;
+    font-size: 24pt;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 800px;
+    margin-top: 300px;
+    text-align: left;
+    width: 120px;
+    background-color: gainsboro;
+    padding: 10px;
+    text-align:center;
+}
+
+#brief{
+    font-family: 'Heebo', sans-serif;
+    font-size: 17pt;
+    color: darkblue;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-distributed{
+    width:100%;
+    float:left;
+    background:#cfb592;
+    text-align:center;
+    padding:40px 0;
+    color:#fff;}
